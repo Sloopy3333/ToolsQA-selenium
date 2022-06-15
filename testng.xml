@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="commonutils.iTestListerManager"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/home/sam/external/Testing/ToolsQA/src/test/java/tests/TestElements.java">
+        <classes>
+            <class name="tests.TestElements">
+            </class>
+        </classes>
+    </test>
+</suite>
